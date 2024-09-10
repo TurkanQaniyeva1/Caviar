@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+   width: 100%;
+   position: fixed;
+   z-index: 1;
+}
+.container{
+    display: flex;
+    margin: 3rem;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+li a{
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+li a:hover{
+    color: red;
+}
+.logo a{
+ font-size: 27px;
+ font-weight: 900;
+ color: #fff;
+}
+li i{
+    color: #fff;
+    font-weight: 800;
+}
+body{
+    background-image: url(	https://preview.colorlib.com/theme/caviar/img/bg-img/hero-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center 14%;
+    height: 00px;
+}
+   .cont{
+   width: 45%;
+   height: 100%;
+   }
+.content{
+    display: flex;
+}
+.box{
+    margin-top: 15rem;
+   width: 600px;
+   height: 600px;
+   padding-left: 13rem;
+}
+h1{
+    font-size: 55px;
+    color: #fff;
+}
+.pdiv{
+  
+    padding-top: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 330px;
+    padding-bottom: 7rem;
+}
+.box a{
+    border-radius: 0%;
+    background-color: #fff;
+    padding: 20px 55px 20px 55px;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+.box a:hover{
+    color: red;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+   position: absolute;
+   right: 4rem;
+   bottom: 18rem;
+
+}
+
+.minimg img{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.img2{
+    margin-top: 15rem;
+}
+.img2 img{
+    width: 550px;
+    height: 400px;
+}
+.main{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.text{
+    margin-top: 15rem;
+    margin-left: 8rem;
+}
+h2{
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+span{
+    color: red;
+    font-weight: 800;
+    
+}
+.text p{
+    padding-top: 2rem;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+}
